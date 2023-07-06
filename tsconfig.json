@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": [                                  
+      "dom",
+      "ESNext"
+    ],                                      
+    "experimentalDecorators": true,                  
+    "emitDecoratorMetadata": true,                    
+    "module": "commonjs",                               
+    "rootDir": "./",                                  
+    "moduleResolution": "node",                      
+    "baseUrl": "./",                                 
+    "paths": {},                                      
+    "allowUmdGlobalAccess": true,                     
+    "allowJs": true,                                  
+    "outDir": "./dist",                                   
+    "removeComments": true,                           
+    "importsNotUsedAsValues": "remove",              
+
+    "isolatedModules": true,                          
+    "esModuleInterop": true,                             
+
+    "strict": true,                                     
+    "noImplicitAny": true,                            
+    "strictNullChecks": true,                        
+    "noImplicitThis": true,                           
+    "alwaysStrict": true,                             
+    "noUnusedLocals": true,                           
+    "noUnusedParameters": true,                      
+    "noFallthroughCasesInSwitch": true,               
+    "noUncheckedIndexedAccess": true,                 
+    "noImplicitOverride": true,                       
+    "noPropertyAccessFromIndexSignature": true,      
+
+    "skipDefaultLibCheck": true,                      
+    "skipLibCheck": true                                
+  }
+}
